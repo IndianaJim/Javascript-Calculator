@@ -1,0 +1,73 @@
+body{
+  background: #5E93B2;
+  max-height: 620px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+#calc-contain {
+  box-shadow: 6px 6px 28px;
+  background: #F5F1ED;
+  position: relative;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 9px;
+}
+#display{
+  background-color: lightGray;
+}
+#calcLogo{
+  color: white;
+  font-family: 'Audiowide', cursive;
+  border: 0;
+  background-color: #AFA4B2;
+  width: 60%;
+  float: right;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 1%;
+  border-radius: 6px;
+}
+#clearButton{
+  background: #D5573B;
+  width: 20%;
+}
+#equalsButton{
+  color: white;
+  background: #57A773;
+  width: 20%;
+}
+#minusButton{
+  color: white;
+  background: #75A2C4;
+  width: 20%;
+}
+#plusButton{
+  color: white;
+  background: #578FBF;
+  width: 20%;
+}
+input[type=button]{
+  background-color: #FCFBF9;
+  width: 20%;
+  font-size: 24px;
+  font-weight: 550;
+  margin: 2%;
+  border-radius: 4px;
+}
+input[type=text]{
+  font-family: 'VT323', monospace;
+  text-align: right;
+  color: #303030;
+  position: relative;
+  display: block;
+  width: 87%;
+  text-shadow: 1.6px 1.6px darkGray;
+  margin: auto;
+  padding: 6px;
+  font-size: 30px;
+  
+}

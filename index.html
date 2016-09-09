@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC - Javascript Calculator </title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <html>
+
+<head>
+<title>Javascript Calculator</title>
+
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> <!--calc display font -->
+<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet"> <!--logo font -->
+</head>
+
+<body>
+
+  
+  <div id="calc-contain">
+    <form name="calculator">
+      <br />
+      <input type="text" name="answer" id="display"/>
+      <br />
+      <input id="clearButton" type="button" value=" C " onclick="calculator.answer.value = ''"/>
+      <input id="calcLogo" value="JIM-2000+" />
+      <br />
+      <input type="button" value=" 1 " onclick="calculator.answer.value += '1'"/>
+      <input type="button" value=" 2 " onclick="calculator.answer.value += '2'"/>
+      <input type="button" value=" 3 " onclick="calculator.answer.value += '3'"/>
+      <input type="button" value=" / " onclick="calculator.answer.value += '/'"/>
+      <br />
+      <input type="button" value=" 4 " onclick="calculator.answer.value += '4'"/>
+      <input type="button" value=" 5 " onclick="calculator.answer.value += '5'"/>
+      <input type="button" value=" 6 " onclick="calculator.answer.value += '6'"/>
+      <input type="button" value=" * " onclick="calculator.answer.value += '*'"/>
+      <br />
+      <input type="button" value=" 7 " onclick="calculator.answer.value += '7'"/>
+      <input type="button" value=" 8 " onclick="calculator.answer.value += '8'"/>
+      <input type="button" value=" 9 " onclick="calculator.answer.value += '9'"/>
+      <input id="minusButton" type="button" value=" - " onclick="calculator.answer.value += '-'"/>
+      <br />
+      <input type="button" value=" 0 " onclick="calculator.answer.value += '0'"/>
+      <input type="button" value=" . " onclick="calculator.answer.value += '.'"/>
+      <input id="equalsButton" type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)"/>
+      <input id="plusButton" type="button" value=" + " onclick="calculator.answer.value += '+'"/>
+      <br />
+    </form>
+    
+  </div><!--end div calc-contain-->
+
+</body>
+</html>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
